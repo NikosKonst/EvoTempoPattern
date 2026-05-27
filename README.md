@@ -43,7 +43,7 @@ GEO accession: GSE333138
 This folder also includes one-to-one ortholog lists for each species that were used to rename GeneIDs in each library whenever an Drosophila melanogaster ortholog was available.
 ---
 
-## `chose_temporal_TFs/`
+## `select_temporal_TFs/`
 
 This folder contains the detailed workflow for:
 
