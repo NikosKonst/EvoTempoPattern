@@ -14,7 +14,7 @@ larval2.data <- Read10X(data.dir = "/Aaegypti_larva2_GeneExt_merged_subsample100
 
 larval3.data <- Read10X(data.dir = "/Aaegypti_larva3_GeneExt_merged_subsample100m/outs/filtered_feature_bc_matrix/")
 
-#rename one to one ortholog genes in each library, based on TABLE S1
+#rename one to one ortholog genes in each library, based on TABLE S2
 mgi <- read.csv(data.dir = "/all_genes_OTO_ortho_aedes.csv", header = F)
 
 larval1.data@Dimnames[[1]] <- mgi$V1
