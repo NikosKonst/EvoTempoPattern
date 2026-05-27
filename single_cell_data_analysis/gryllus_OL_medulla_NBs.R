@@ -376,7 +376,7 @@ FeaturePlot(merged_obj, features = c("rna_GBIM-06054","rna_GBIM-06848","rna_esg"
 FeaturePlot(merged_obj, features = c("rna_CycA","rna_stg","rna_CycE","rna_E2f1","rna_CycD","rna_Cdk2","rna_Cdk4"))
 #chose cluster 56 as medulla NBs
 
-#### chose and save medulla NBs####
+#### choοse and save medulla NBs####
 # find lamina and lobula plate gcm, eya, sim, tll, dac, acj6
 FeaturePlot(merged_obj, features = c("rna_eya","rna_acj6","rna_gcm","rna_sim","rna_dac","rna_GBIM-04903"), raster = F) # GBIM-04903: tll
 
