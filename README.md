@@ -6,7 +6,7 @@ This repository contains all scripts and processed data required to reproduce th
 
 # Repository Structure
 
-## `single_cell_analysis/`
+## `single_cell_data_analysis/`
 
 This folder contains one R script per species for the complete single-cell RNA-seq preprocessing workflow, including:
 
@@ -65,7 +65,7 @@ res_list.rds
 
 ---
 
-## `Figure/`
+## `figures/`
 
 This folder contains individual R scripts used to generate each figure separately.
 
