@@ -14,7 +14,7 @@ larval2.data <- Read10X(data.dir = "/Dvirilis_larva2_GeneExt_merged_subsample100
 
 larval3.data <- Read10X(data.dir = "/Dvirilis_larva3_GeneExt_merged_subsample100m/outs/filtered_feature_bc_matrix/")
 
-#rename one to one ortholog genes in each library, based on TABLE S2
+#rename one to one ortholog genes in each library, based on TABLE S1
 mgi <- read.csv(data.dir = "/LOC_combined_OtO_DROVI_correspondence_GE_subsample.tsv", header = F)
 
 larval1.data@Dimnames[[1]] <- mgi$V1
