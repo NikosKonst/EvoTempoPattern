@@ -91,6 +91,15 @@ This folder contains additional data required for figure generation, including:
 
 ---
 
+## `D.mel/`
+
+This folder contains all the data regarding Drosophila melanogaster medulla neuroblasts. Data used from Konstantinides et al.2022, Nature. The file includes
+
+- medulla neuroblasts only from larval stage
+- the res_list file generated from PseudotimeDE
+- a Readme file with details on this analysis
+---
+
 # Data Availability
 
 Processed Seurat objects and additional large files are deposited in GEO:
