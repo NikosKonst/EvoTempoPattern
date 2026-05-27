@@ -127,7 +127,7 @@ larvaOL.integrated <- readRDS("/virilis_OL.rds")
 DimPlot(larvaOL.integrated, label = TRUE, raster=F, shuffle = T) + NoLegend()
 DimPlot(larvaOL.integrated, split.by = "orig.ident",label = TRUE) + NoLegend()
 
-#### chose and save medulla NBs ####
+#### choοse and save medulla NBs ####
 # find medulla NB cluster based on conserved markers
 FeaturePlot(larvaOL.integrated, features = "rna_shg") # epithel, NBs
 FeaturePlot(larvaOL.integrated, features = "rna_repo") # glia
