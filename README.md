@@ -40,7 +40,7 @@ file per species, also available at GEO under accession number:
 ```text
 GEO accession: GSE333138
 ```
-
+This folder also includes one-to-one ortholog lists for each species that were used to rename GeneIDs in each library whenever an Drosophila melanogaster ortholog was available.
 ---
 
 ## `chose_temporal_TFs/`
