@@ -128,7 +128,7 @@ larvaOL.integrated <-FindClusters(object = larvaOL.integrated, resolution = 8)
 DimPlot(larvaOL.integrated, label = TRUE, raster=F, shuffle = T) + NoLegend()
 DimPlot(larvaOL.integrated, split.by = "orig.ident",label = TRUE) + NoLegend()
 
-#### chose and save medulla NBs ####
+#### choοse and save medulla NBs ####
 # find medulla NB cluster based on conserved markers
 FeaturePlot(larvaOL.integrated, features = "rna_dpn") #NBs
 
