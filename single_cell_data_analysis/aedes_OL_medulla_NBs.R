@@ -142,7 +142,7 @@ FeaturePlot(larvaOL.integrated, features = c("rna_LOC5564850","rna_eya","rna_sim
 FeaturePlot(larvaOL.integrated, features = c("rna_LOC5575090","rna_tll","rna_nerfin-1","rna_ase")) # hth, tll, nerfin to try understand if it nbs , gmcs etc
 FeaturePlot(larvaOL.integrated, features = c("rna_LOC5575090","rna_ase")) # hth, ase to try understand if it nbs , gmcs etc
 
-#chose cluster 32 as medulla NB cluster
+#choοse cluster 32 as medulla NB cluster
 nw_object <- c(32)
 NbS <- subset(larvaOL.integrated, idents = nw_object)
 NbS <- RunPCA(NbS, npcs = 50)
