@@ -25,8 +25,8 @@ a <- c("hth", "dmrt99B", "opa", "erm","Oaz", "ey","hbn","D","B-H1")
 musca_nb <-readRDS("/musca_medulla_NBs.rds")
 a <- c("hth", "dmrt99B", "LOC101894095", "erm","LOC101888960", "ey","hbn","D","B-H1") #LOC101894095:opa, "LOC101888960:oaz
 
-Aedes_nb <- readRDS("/aedes_medulla_NBs.rds")
-a <- c("LOC5575091", "dmrt99B", "opa", "erm","LOC5573207", "ey","hbn","D","LOC5570655") #LOC5573207:oaz, LOC5570655:BH
+Aedes_nb <- readRDS("/aedes_medulla_NBs.rds") 
+a <- c("hth", "dmrt99B", "opa", "erm","Oaz", "ey","hbn","D","B-H1") #renamed LOC with Dmel homolog:LOC5575091:hth,LOC5573207:Oaz, LOC5570655:B-H1 
 
 Bombyx_NB <- readRDS("/bombyx_medulla_NBs.rds")
 a <- c("hth", "dmrt99B", "opa", "erm","Oaz","ey","hbn","D","LOC101747128") #B-H LOC101747128
