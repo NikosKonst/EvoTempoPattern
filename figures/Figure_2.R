@@ -38,10 +38,10 @@ Nasonia_nb <-readRDS("/nasonia_medulla_NBs.rds")
 a <- c("hth", "LOC116416021","opa", "erm","PRAS40","ey","hbn","LOC100678366","B-H1") #LOC116416021 dmrt, LOC100678366:sox/D, Pras40: Lobe/Oaz
 
 Cricket_nb <- readRDS("/gryllus_medulla_NBs.rds")
-a <- c("hth","Oaz","GBIM-00865","ey","hbn","D","B-H1")
+a <- c("hth","Oaz","GBIM-00865","ey","hbn","D","B-H1") #GBIM-00865 opa
 
 Cloeon_nb <- readRDS("/cloeon_medulla_NBs.rds")
-a <- c("hth", "dmrt99B", "opa", "erm","Oaz", "ey","hbn","D","B-H1") # CLODIP-2-CD15157:scro
+a <- c("hth", "dmrt99B", "opa", "erm","Oaz", "ey","hbn","D","B-H1") 
 
 
 #### pseudotime ####
